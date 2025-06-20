@@ -1,5 +1,3 @@
-
-
 # 💬 Quest: I want to add a simple chat interface
 
 > To reset your progress and select a different quest, click this button:
@@ -12,7 +10,7 @@
 2. [Visual Studio Code](https://code.visualstudio.com/) installed
 3. [Node.js](https://nodejs.org/en) installed
 4. An Azure subscription. Use the [free trial](https://azure.microsoft.com/free/) if you don't have one, or [Azure for Students](https://azure.microsoft.com/free/students/) if you are a student.
-4. [Azure Developer CLI](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd?tabs=winget-windows%2Cbrew-mac%2Cscript-linux&pivots=os-windows) installed
+  [Azure Developer CLI](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd?tabs=winget-windows%2Cbrew-mac%2Cscript-linux&pivots=os-windows) installed
 
 ## 📝 Overview
 
@@ -75,7 +73,7 @@ This will initialize a new Vite project and add the necessary files and folders 
 - `.azure/`: contains essential configurations for Azure.
 - `azure.yaml`: a configuration file that defines each service in your application and maps them to the corresponding Azure resources defined in `infra`.
 
-To run the application locally, 
+To run the application locally,
 
 ```sh
 cd webapp
@@ -96,7 +94,7 @@ _If you are prompted to update imports for 'webapp', select `Yes`._
 Inside the `packages` folder, create a new folder called `webapi`. This will be the API for your chat interface.
 
 Your project structure should now look like this:
-
+****
 ```markdown
   .azure/
   infra/
