@@ -4,8 +4,9 @@
     "@azure-rest/ai-inference": "latest",
     "@azure/core-auth": "latest",
     "@azure/core-sse": "latest",
+    "@azure/identity": "latest",
     "dotenv": "^16.5.0",
     "openai": "latest",
-    "@azure/identity": "latest"
+    "pdf-parse": "^1.1.1"
   }
 }
