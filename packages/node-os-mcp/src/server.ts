@@ -1,7 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import * as os from "os";
 
-
+ 
 // Create server instance
 const server = new McpServer({
   name: "node_os_mcp",
